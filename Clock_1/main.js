@@ -12,7 +12,7 @@ function displayCanvas() {
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   // рисуем контур часов
-  ctx.strokeStyle = '#000000';
+  ctx.strokeStyle = '#41008d';
   ctx.lineWidth = 2;
   ctx.beginPath();
   ctx.arc(xCenterClock, yCenterClock, rariusClock, 0, 2*Math.PI, true);
